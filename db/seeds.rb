@@ -15,3 +15,4 @@ hash = JSON.parse(file)
 hash['drinks'].each do |drink|
   Ingredient.create(name: drink['strIngredient1'])
 end
+
